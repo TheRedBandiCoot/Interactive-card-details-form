@@ -1,0 +1,43 @@
+.form {
+  margin-left: -5rem;
+  width: 361px;
+}
+
+input {
+  width: 20rem;
+  padding: 0.5rem;
+  margin-bottom: 1.2rem;
+  outline: none;
+  border: 1px solid var(--Light-grayish-violet);
+  border-radius: 6px;
+  font-size: 1rem;
+  letter-spacing: 0.5rem;
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+label {
+  font-size: 0.65rem;
+  font-weight: 800;
+  letter-spacing: 0.12rem;
+  margin-bottom: 0.5rem;
+}
+
+.btn {
+  width: 361px;
+  /* outline: ; */
+  outline-color: blueviolet;
+  outline-width: 5px;
+  border: none;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background: var(--Very-dark-violet);
+  color: var(--Light-grayish-violet);
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  font-size: 0.9rem;
+  transition: 0.3s linear;
+}
+
+.btn:hover {
+  background: hsl(280, 92%, 14%);
+}

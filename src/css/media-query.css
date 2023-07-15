@@ -1,0 +1,86 @@
+@media screen and (max-width: 1128px) {
+  .main-container {
+    gap: 1rem;
+  }
+  .card {
+    width: 600px;
+    margin-left: 1rem;
+  }
+
+  .form {
+    margin-left: 1rem;
+  }
+  #root {
+    width: calc(100% - (2 * 2.5rem));
+  }
+}
+
+@media (max-width: 865px) {
+  .main-container {
+    flex-direction: column;
+  }
+  .complete {
+    transform: scale(1.3);
+  }
+  #root {
+    /* background: url('../assets/bg-main-mobile.png'); */
+    margin: 0 auto;
+  }
+
+  .card {
+    width: 35rem;
+    display: flex;
+    flex-direction: column-reverse;
+    height: 60vh;
+    gap: 0;
+    margin-left: -5rem;
+    justify-content: center;
+  }
+
+  .card > .card-front {
+    margin-top: -7.5rem;
+    margin-left: 5rem;
+    z-index: 1;
+  }
+}
+
+@media (max-width: 555px) {
+  .card {
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+  }
+  .card .card-front {
+    margin-left: 3rem;
+    margin-top: -5.5rem;
+  }
+  .card .card-back {
+    margin-right: 3rem;
+  }
+  .card .card-front,
+  .card .card-back {
+    transform: scale(1);
+  }
+  .form {
+    transform: scale(1.5);
+  }
+
+  .main-container {
+    width: 100%;
+    margin-left: 0;
+  }
+  body {
+    /* display: flex;
+    justify-content: center; */
+    width: max-content;
+  }
+
+  .card {
+    margin-left: 0;
+  }
+  .form {
+    margin: 0 auto;
+  }
+  #root {
+    background-position-x: 0;
+  }
+}

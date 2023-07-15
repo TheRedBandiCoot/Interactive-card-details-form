@@ -1,0 +1,39 @@
+.card-holder-name,
+.card-holder-number,
+.cvc {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-holder-exp-date-cvc {
+  display: flex;
+}
+.exp-date-input input {
+  width: var(--unit);
+  --unit: 4rem;
+  margin-right: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.exp-date-input {
+  display: flex;
+}
+
+.cvc {
+  margin-top: 0.2rem;
+  margin-left: 0.8rem;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.cvc #cvc {
+  width: 10.2rem;
+  margin-top: 0.1rem;
+}
+.cvc label {
+  font-size: 0.8rem;
+}
+
+.card-holder-name input {
+  letter-spacing: 0.1rem;
+}

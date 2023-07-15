@@ -1,0 +1,72 @@
+@import './card-holder-details.css';
+
+.card {
+  width: 35rem;
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  gap: 0.1rem;
+  margin-left: -5rem;
+  justify-content: center;
+  color: var(--White);
+  font-weight: normal;
+  letter-spacing: 0.1rem;
+}
+
+.card > .card-front {
+  width: 24.82rem;
+  height: 13.67rem;
+  background-image: url('../assets/bg-card-front.png');
+  background-repeat: no-repeat;
+  align-self: flex-start;
+  transform: scale(0.8);
+  filter: drop-shadow(-3px 5px 10px rgba(0, 0, 0, 0.45));
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.card > .card-front > *:nth-child(1) {
+  margin-top: 0.5rem;
+}
+.card > .card-front > *:nth-child(1),
+.card > .card-front > *:nth-child(3) {
+  margin-left: 2rem;
+}
+
+.card > .card-front > *:nth-child(2) {
+  margin-left: 2rem;
+  font-size: 2.3rem;
+  margin-bottom: -1.5rem;
+  font-size: 2rem;
+  letter-spacing: 0.3rem;
+}
+.card > .card-front > *:nth-child(3) {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+  font-size: 0.8rem;
+}
+.card > .card-front > *:nth-child(3) > *:last-child {
+  margin-right: 2rem;
+}
+.card > .card-back {
+  width: 24.82rem;
+  height: 13.67rem;
+  background-image: url('../assets/bg-card-back.png');
+  background-repeat: no-repeat;
+  align-self: flex-end;
+  transform: scale(0.8);
+  margin-top: -1rem;
+  filter: drop-shadow(-3px 5px 10px rgba(0, 0, 0, 0.45));
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: 500;
+  letter-spacing: 0.3rem;
+  color: var(--Light-grayish-violet);
+}
+.card > .card-back > * {
+  margin-right: 3rem;
+  margin-bottom: 0.35rem;
+}
